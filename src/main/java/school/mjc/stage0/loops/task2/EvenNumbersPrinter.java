@@ -4,10 +4,10 @@ public class EvenNumbersPrinter {
     public void printEvenNumbers(int printTillInclusive) {
         int count = 0;
         while (count != printTillInclusive + 1) {
-            if (count % 2 != 0) {
+            if (count % 2 == 0) {
                 System.out.println(count);
             }
-            count ++;
+            count++;
         }
     }
 }
